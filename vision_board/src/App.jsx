@@ -1,122 +1,113 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+//import { useState } from 'react'
+
 import './App.css'
-
+import woodBoard from './assets/wood-background.png'
+import cork from './assets/cork.png'
+import UTSA from './assets/images/UTSA.png'
+import goalNote from './assets/images/goalNote.png'
+import DS1 from './assets/images/DS-1.jpg'
+import DS2 from './assets/images/DS-2.jpg'
+import ASRock from './assets/images/ASRock.jpg'
+import laptop from './assets/images/laptop.jpg'
+import spanish from './assets/images/spanish.png'
+import thumbs from './assets/images/thumbs.jpg'
+import zoo from './assets/images/zoo.png'
+import son from './assets/images/son.jpg'
+import bedtime from './assets/images/bedtime.jpg'
+import letters from './assets/images/letters.png'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+    <main className="page">
+      <div className="board">
+         <img
+          src={cork}
+          alt="Cork background"
+          className="cork-image"
+        />
+        <img
+          src={woodBoard}
+          alt="Personal vision board"
+          className="board-image"
+        />
 
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+        <div className="letters">
+          <img
+            src={letters}
+            alt="Letters"
+            className="letters"
+          />
         </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+        <div className="goals-images">
+          <img
+            src={UTSA}
+            alt="UTSA"
+            className="UTSA"
+          />
+          <img
+            src={goalNote}
+            alt="Goal note"
+            className="goalNote"
+          />
+          <img
+            src={DS1}
+            alt="DS1"
+            className="DS1"
+          />
+          <img
+            src={DS2}
+            alt="DS2"
+            className="DS2"
+          />
+        </div>
+        <div className="personal-growth">
+          <img
+            src={ASRock}
+            alt="ASRock"
+            className="ASRock"
+          />
+          <img
+            src={laptop}
+            alt="Laptop"
+            className="laptop"
+          />
+          <img
+            src={spanish}
+            alt="Spanish"
+            className="spanish"
+          />
+          <img
+            src={thumbs}
+            alt="Thumbs up"
+            className="thumbs"
+          />  
+
+        </div>
+
+        <div className="family-images">
+          <img
+            src={zoo}
+            alt="Family at the zoo"
+            className="zoo"
+          />
+          <img
+            src={son}
+            alt="Son playing"
+            className="son"
+          />
+          <img
+            src={bedtime}
+            alt="Bedtime story"
+            className="bedtime"
+          />  
+        </div>
+
+       </div>
+
+       
+      
+    </main>
+  );
 }
 
 export default App
