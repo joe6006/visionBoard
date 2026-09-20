@@ -15,6 +15,11 @@ import zoo from './assets/images/zoo.png'
 import son from './assets/images/son.jpg'
 import bedtime from './assets/images/bedtime.jpg'
 import letters from './assets/images/letters.png'
+import myGame from './assets/images/mygame.png'
+import weights from './assets/images/weights.jpg'
+import reactpic from './assets/Images/react.png'
+import cplus from './assets/images/c++.png'  
+import quotenote from './assets/images/quotenote.png'
 function App() {
   return (
     <main className="page">
@@ -82,6 +87,27 @@ function App() {
             className="thumbs"
           />  
 
+          <img
+            src={myGame}
+            alt="My Game"
+            className="myGame"
+          />
+          <img
+            src={weights}
+            alt="Weights"
+            className="weights"
+          />
+          <img
+            src={reactpic}
+            alt="React"
+            className="reactpic"
+          />
+          <img
+            src={cplus}
+            alt="C++"
+            className="cplus"
+          />
+
         </div>
 
         <div className="family-images">
@@ -99,6 +125,11 @@ function App() {
             src={bedtime}
             alt="Bedtime story"
             className="bedtime"
+          />  
+          <img
+            src={quotenote}
+            alt="Quote note"
+            className="quotenote"
           />  
         </div>
 

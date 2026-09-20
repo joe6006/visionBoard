@@ -57,7 +57,7 @@ body {
 }
 
 .goals-images {
-  border: 2px solid #000;
+  
   position: absolute;
   top: 10vh;
   left: 2vw;
@@ -101,10 +101,87 @@ body {
   z-index: 1;
   
 }
+ .personal-growth{
+  
+  position: absolute;
+  top: 10vh;
+  left: 55vw;
+  width: 30vw;
+  height: 80vh;
+  z-index: 1;
+}
+  
+.ASRock{
+ position: absolute;
+  top: -1vh;
+  left: 22vw;
+  width: 10vw;
+  height: auto;
+  z-index: 2;
+}
+.laptop{
+  position: absolute;
+  top: 5vh;
+  left: 11vw;
+  width: 10vw;
+  height: auto;
+  z-index: 2;
+}
+.spanish{
+   position: absolute;
+  top: 45vh;
+  left: 24vw;
+  width: 8vw;
+  height: auto;
+  z-index: 2;
+  rotate: 5deg;
+}
+.thumbs{
+  position: absolute;
+  top: 25vh;
+  left: 2vw;
+  width: 8vw;
+  height: auto;
+  z-index: 2;
+}
+.weights{
+  position: absolute;
+  top: 60vh;
+  left: -28vw;
+  width: 12vw;
+  height: auto;
+  z-index: 2;
+}
+.myGame{
+  position: absolute;
+  top: 55vh;
+  left: 2vw;
+  width: 20vw;
+  height: auto;
+  z-index: 2;
+}
+
+.reactpic{
+  position: absolute;
+  top: 45vh;
+  left: -10vw;
+  width: 18vw;
+  height: auto;
+  z-index: 1;
+}
+.cplus{
+  position: absolute;
+  top:60vh;
+  left: -15vw;
+  width: 20vw;
+  height: auto;
+  z-index: 1;
+  rotate: 5deg;
+}
 
 
 .family-images {
-  border: 2px solid #000;
+  
   position: absolute;
   top: 30vh;
   left: 1%;
@@ -112,6 +189,15 @@ body {
   height: 63vh;
   z-index: 1;
 }
+.quotenote{
+  position: absolute;
+  top: 15vh;
+  left: 24vw;
+  width: 12vw;
+  height: auto;
+  z-index: 2;
+}
+
 .zoo{
   position: absolute;
   top: 34vh;
