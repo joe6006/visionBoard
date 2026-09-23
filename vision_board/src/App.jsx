@@ -43,7 +43,7 @@ function App() {
           />
         </div>
 
-        <div className="goals-Images">
+        <div className="goals-images">
           <img
             src={UTSA}
             alt="UTSA"
@@ -110,7 +110,7 @@ function App() {
 
         </div>
 
-        <div className="family-Images">
+        <div className="family-images">
           <img
             src={zoo}
             alt="Family at the zoo"
