@@ -3,23 +3,23 @@
 import './App.css'
 import woodBoard from './assets/wood-background.png'
 import cork from './assets/cork.png'
-import UTSA from './assets/images/UTSA.png'
-import goalNote from './assets/images/goalNote.png'
-import DS1 from './assets/images/DS-1.jpg'
-import DS2 from './assets/images/DS-2.jpg'
-import ASRock from './assets/images/ASRock.jpg'
-import laptop from './assets/images/laptop.jpg'
-import spanish from './assets/images/spanish.png'
-import thumbs from './assets/images/thumbs.jpg'
-import zoo from './assets/images/zoo.png'
-import son from './assets/images/son.jpg'
-import bedtime from './assets/images/bedtime.jpg'
-import letters from './assets/images/letters.png'
-import myGame from './assets/images/mygame.png'
-import weights from './assets/images/weights.jpg'
+import UTSA from './assets/Images/UTSA.png'
+import goalNote from './assets/Images/goalNote.png'
+import DS1 from './assets/Images/DS-1.jpg'
+import DS2 from './assets/Images/DS-2.jpg'
+import ASRock from './assets/Images/ASRock.jpg'
+import laptop from './assets/Images/laptop.jpg'
+import spanish from './assets/Images/spanish.png'
+import thumbs from './assets/Images/thumbs.jpg'
+import zoo from './assets/Images/zoo.png'
+import son from './assets/Images/son.jpg'
+import bedtime from './assets/Images/bedtime.jpg'
+import letters from './assets/Images/letters.png'
+import myGame from './assets/Images/mygame.png'
+import weights from './assets/Images/weights.jpg'
 import reactpic from './assets/Images/react.png'
-import cplus from './assets/images/c++.png'  
-import quotenote from './assets/images/quotenote.png'
+import cplus from './assets/Images/c++.png'  
+import quotenote from './assets/Images/quotenote.png'
 function App() {
   return (
     <main className="page">
@@ -43,7 +43,7 @@ function App() {
           />
         </div>
 
-        <div className="goals-images">
+        <div className="goals-Images">
           <img
             src={UTSA}
             alt="UTSA"
@@ -110,7 +110,7 @@ function App() {
 
         </div>
 
-        <div className="family-images">
+        <div className="family-Images">
           <img
             src={zoo}
             alt="Family at the zoo"
